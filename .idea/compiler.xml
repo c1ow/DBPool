@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="batch" />
+        <module name="db-concurrence" />
+        <module name="db-pool" />
+        <module name="solr-ok" />
+        <module name="work-ok" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="batch" target="1.8" />
+      <module name="concurrence" target="1.8" />
+      <module name="db-concurrence" target="1.8" />
+      <module name="db-pool" target="1.8" />
+      <module name="DBPool" target="1.8" />
+      <module name="solr-ok" target="1.8" />
+      <module name="work-ok" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
