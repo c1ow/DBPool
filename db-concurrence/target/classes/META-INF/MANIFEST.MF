@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: xz
+Build-Jdk: 9.0.1
+Implementation-Title: db-concurrence
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.pool
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/DB-Pool/db-c
+ oncurrence/
+Created-By: Maven Integration for Eclipse
+
