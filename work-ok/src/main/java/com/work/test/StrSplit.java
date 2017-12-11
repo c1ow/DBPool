@@ -1,7 +1,4 @@
 package com.work.test;
-
-import com.sun.xml.internal.fastinfoset.util.CharArray;
-
 import java.util.List;
 
 /**
