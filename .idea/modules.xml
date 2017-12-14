@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/batch/batch.iml" filepath="$PROJECT_DIR$/batch/batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-concurrence/db-concurrence.iml" filepath="$PROJECT_DIR$/db-concurrence/db-concurrence.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-pool/db-pool.iml" filepath="$PROJECT_DIR$/db-pool/db-pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-ok/redis-ok.iml" filepath="$PROJECT_DIR$/redis-ok/redis-ok.iml" />
       <module fileurl="file://$PROJECT_DIR$/solr-ok/solr-ok.iml" filepath="$PROJECT_DIR$/solr-ok/solr-ok.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-ok/work-ok.iml" filepath="$PROJECT_DIR$/work-ok/work-ok.iml" />
     </modules>
