@@ -51,7 +51,7 @@ import java.util.Map;
 @EnableScheduling
 public class SolrApiController {
 
-    private static final String URL = "http://192.168.0.120:8983/solr/mycore001";
+    private static final String URL = "http://solr2-sjzx.aviptcare.com/solr/xzhisdata";
     private static volatile BufferedReader bufferedReader;
 
     /**
@@ -61,19 +61,16 @@ public class SolrApiController {
      * @throws SolrServerException
      */
     @PostMapping("/get")
-    public JSONObject getSolrData() throws IOException, SolrServerException {
+    public static JSONObject getSolrData() throws IOException, SolrServerException {
         JSONObject jsonObject = new JSONObject();
         //创建solr实例
-        Map<String,Object> params = new HashMap<String,Object>();
-        params.put("q","*:*");
         SolrClient solrClient = new LBHttpSolrClient(URL);
         SolrQuery solrQuery = new SolrQuery("*:*");
         solrQuery.setStart(0);
-        solrQuery.setRows(20);
+        solrQuery.setRows(10);
         solrQuery.setSort("resultTime", SolrQuery.ORDER.desc);
         solrQuery.setFilterQueries("tableType:10410061000000001","idNo:320302600204281");
         QueryResponse queryResponse = solrClient.query(solrQuery);
-        System.err.println("----->");
         System.out.println("---->全体数据："+JSONObject.toJSONString(queryResponse.getResponse().get("numFound"),true));
         SolrDocumentList solrDocumentList = queryResponse.getResults();
         //获取分页分页数据
@@ -87,7 +84,7 @@ public class SolrApiController {
      * solr定时增量
      * @throws IOException
      */
-    @Scheduled(cron = "0/30 * * * * ?")
+//    @Scheduled(cron = "0/30 * * * * ?")
     public void deltaImport() throws IOException {
         System.out.println("--------------");
         HttpGet httpGet = new HttpGet("http://192.168.0.120:8983/solr/mycore001/dataimport?command=delta-import&clean=false&commit=true");
@@ -109,6 +106,10 @@ public class SolrApiController {
             System.out.println("结果信息："+res.getJSONObject("statusMessages").getString(""));
         }
 
+    }
+
+    public static void main(String[] args) throws IOException, SolrServerException {
+        getSolrData();
     }
 
 }
