@@ -1,21 +1,20 @@
 server:
   port: 8006
 #/redis 配置
-spring:
-  redis:
-    database: 0
-    host: 192.168.0.120
-    port: 6379
-    password: myRedis
-    #最大连接数据
-    pool:
-      #最大连接数
-      max-active: 20
-      #阻塞最大等待时间
-      max-wait: 600000
-      #最大空闲连接
-      max-idle: 10
-      # 最小空闲连接
-      min-idle: 0
-    # 连接超时时间
-    timeout: 10000
+
+redis-ok:
+  host: 192.168.0.120
+  port: 6379
+  password: myRedis
+  #最大连接数据
+  pool:
+    #最大连接数
+    max-active: 20
+    #阻塞最大等待时间
+    max-wait: 600000
+    #最大空闲连接
+    max-idle: 10
+    # 最小空闲连接
+    min-idle: 0
+  # 连接超时时间
+  timeout: 10000
