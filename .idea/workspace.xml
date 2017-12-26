@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819b7073-1eaa-4c90-b6b7-7b53647a750f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_jbatch_com_ibm_jbatch_tck_spi_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_batch_javax_batch_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_core_3_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_infrastructure_3_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_batch_1_5_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/db-batch.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/BatchConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/JdbcT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/JobCompletionNotificationListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/Mock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/MockRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/MoreDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/java/hello/PersonItemProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/resources/sample-data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db-batch/src/main/resources/schema-all.sql11" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis-ok/src/main/java/com/redis/bean/RedisMoreBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis-ok/src/main/java/com/redis/tools/RedisAOPTool.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/CONTRIBUTING.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/LICENSE.code.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/LICENSE.writing.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/README.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/java/hello/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/java/hello/BatchConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/java/hello/JobCompletionNotificationListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/java/hello/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/java/hello/PersonItemProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/resources/sample-data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/complete/src/main/resources/schema-all.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/src/main/java/hello/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/src/main/resources/sample-data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/initial/src/main/resources/schema-all.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db-batch/test/run.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/target/classes/com/redis/controller/RedisController.class" afterPath="$PROJECT_DIR$/redis-ok/target/classes/com/redis/controller/RedisController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/target/test-classes/com/redis/test/RedisJunit$1.class" afterPath="$PROJECT_DIR$/redis-ok/target/test-classes/com/redis/test/RedisJunit$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/target/test-classes/com/redis/test/RedisJunit.class" afterPath="$PROJECT_DIR$/redis-ok/target/test-classes/com/redis/test/RedisJunit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBPool.iml" afterPath="$PROJECT_DIR$/DBPool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch/batch.iml" afterPath="$PROJECT_DIR$/batch/batch.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch/pom.xml" afterPath="$PROJECT_DIR$/batch/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db-concurrence/db-concurrence.iml" afterPath="$PROJECT_DIR$/db-concurrence/db-concurrence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db-pool/db-pool.iml" afterPath="$PROJECT_DIR$/db-pool/db-pool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/pom.xml" afterPath="$PROJECT_DIR$/redis-ok/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/redis-ok.iml" afterPath="$PROJECT_DIR$/redis-ok/redis-ok.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/src/main/java/com/redis/controller/RedisController.java" afterPath="$PROJECT_DIR$/redis-ok/src/main/java/com/redis/controller/RedisController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/redis-ok/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-ok/target/classes/application.yml" afterPath="$PROJECT_DIR$/redis-ok/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solr-ok/solr-ok.iml" afterPath="$PROJECT_DIR$/solr-ok/solr-ok.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work-ok/work-ok.iml" afterPath="$PROJECT_DIR$/work-ok/work-ok.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/batch/target/" />
@@ -282,6 +192,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DBPool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBPool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBPool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-batch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514168014717</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redis">
+      <created>1514293305387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1514293305387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -869,7 +800,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -891,10 +822,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43606558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43606558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7442623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
