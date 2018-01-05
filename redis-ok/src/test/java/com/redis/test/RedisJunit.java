@@ -9,6 +9,7 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import redis.clients.jedis.Jedis;
 
 import java.util.concurrent.TimeUnit;
 
@@ -25,14 +26,17 @@ public class RedisJunit {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    @Autowired
+    private Jedis jedis;
+
     @Test
     public void save(){
+        jedis.select(3);
         stringRedisTemplate.opsForValue().set("name1","test1");
         stringRedisTemplate.opsForValue().set("name2","test1");
         System.err.println("----------------");
         System.err.println("获取结果："+stringRedisTemplate.opsForValue().get("name1"));
     }
-
     @Test
     public void del(){
         stringRedisTemplate.delete("name");

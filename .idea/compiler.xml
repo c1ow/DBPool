@@ -16,16 +16,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="batch" target="1.6" />
+      <module name="batch" target="1.8" />
       <module name="concurrence" target="1.8" />
-      <module name="db-batch" target="1.6" />
-      <module name="db-concurrence" target="1.6" />
-      <module name="db-pool" target="1.6" />
-      <module name="DBPool" target="1.6" />
+      <module name="db-batch" target="1.8" />
+      <module name="db-concurrence" target="1.8" />
+      <module name="db-pool" target="1.8" />
+      <module name="DBPool" target="1.8" />
       <module name="gs-batch-processing" target="1.5" />
-      <module name="redis-ok" target="1.6" />
-      <module name="solr-ok" target="1.6" />
-      <module name="work-ok" target="1.6" />
+      <module name="redis-ok" target="1.8" />
+      <module name="solr-ok" target="1.8" />
+      <module name="work-ok" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
