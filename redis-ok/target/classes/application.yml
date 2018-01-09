@@ -3,6 +3,7 @@ server:
 #/redis 配置
 
 redis-ok:
+  useDB: s1,s2,s3
   host: 192.168.0.120
   port: 6379
   password: myRedis

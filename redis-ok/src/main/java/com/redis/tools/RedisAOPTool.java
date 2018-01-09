@@ -1,13 +1,9 @@
 package com.redis.tools;
 
-import com.redis.bean.RedisMoreBean;
-import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.Around;
+import com.redis.bean.RedisMoreBeanImpl;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -21,8 +17,8 @@ import javax.annotation.Resource;
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class RedisAOPTool {
 
-    @Resource(name = "redisMordBean")
-    private RedisMoreBean redisMoreBean;
+//    @Resource(name = "redisMordBean")
+    private RedisMoreBeanImpl redisMoreBean;
 
     //方法执行前搞定
     @Before("execution(* com.redis.controller.RedisController.*(..)) && args(code)")

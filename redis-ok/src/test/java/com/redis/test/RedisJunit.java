@@ -1,16 +1,25 @@
 package com.redis.test;
+import com.redis.bean.RedisMoreBean;
+import com.redis.bean.RedisMoreBeanImpl;
+import com.redis.more.bean.MoreBean;
+import org.apache.commons.pool2.PooledObjectFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
+import javax.annotation.Resource;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -24,14 +33,13 @@ public class RedisJunit {
     private StringRedisTemplate stringRedisTemplate;
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    private MoreBean moreBean;
 
     @Autowired
-    private Jedis jedis;
-
+    private RedisTemplate redisTemplate;
     @Test
     public void save(){
-        jedis.select(3);
+
         stringRedisTemplate.opsForValue().set("name1","test1");
         stringRedisTemplate.opsForValue().set("name2","test1");
         System.err.println("----------------");
@@ -64,5 +72,24 @@ public class RedisJunit {
                return 200;
            }
        });
+    }
+
+
+    @Resource
+    private RedisMoreBean redisMoreBean;
+
+    @Test
+    public void testMOre(){
+        redisTemplate =  redisMoreBean.createRedisTemplate(2);
+        redisTemplate.opsForValue().set("xxx","yyyy");
+        redisTemplate.opsForValue().set("zz","yyyy");
+        redisTemplate.opsForValue().set("dd","yyyy");
+        redisTemplate.opsForValue().set("ff","yyyy");
+
+    }
+
+    @Test
+    public void getC(){
+        Map<String,RedisTemplate<String,Object>> redisTemplateMap = moreBean.getRedisTemplateMap();
     }
 }
