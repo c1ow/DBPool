@@ -1,6 +1,7 @@
 package com.redis.test;
 import com.redis.bean.RedisMoreBean;
 import com.redis.bean.RedisMoreBeanImpl;
+import com.redis.more.bean.MorBeanForJavaCode;
 import com.redis.more.bean.MoreBean;
 import org.apache.commons.pool2.PooledObjectFactory;
 import org.junit.Test;
@@ -91,5 +92,11 @@ public class RedisJunit {
     @Test
     public void getC(){
         Map<String,RedisTemplate<String,Object>> redisTemplateMap = moreBean.getRedisTemplateMap();
+    }
+    @Autowired
+    private MorBeanForJavaCode morBeanForJavaCode;
+    @Test
+    public void getCJavaCode(){
+        Map<String,RedisTemplate<String,Object>> redisTemplateMap = morBeanForJavaCode.getRedisTemplateMap();
     }
 }
